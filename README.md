@@ -34,14 +34,14 @@ Creating a service account
 A service account's credentials include a generated email address that is unique and at least one   public/private key pair. 
 If the application runs on Google App Engine, a service account is set up automatically when we create our project. 
 If the application runs on Google Compute Engine, a service account is also set up automatically when we create our project, but we must specify the scopes that the application needs access to when we create a Google Compute Engine instance. 
-If the application doesn't run on Google App Engine or Google Compute Engine, even we can get these credentials from the Google Developers Console. 
+If the application doesn't run on Google App Engine or Google Compute Engine, even then also we can get these credentials from the Google Developers Console. 
 To generate service-account credentials, or to view the public credentials that you've already generated, do the following:
 
 1. Login into Google Developer Console using Google email address and password.
 2. Go to https://console.developers.google.com/permissions which is Developers Console's Permissions page. If we do not have a project then it asks for making a new project otherwise it will direct to the permission page.
-        3.    Open the Service accounts section of the Developers Console's Permissions page.
-        4.    Click Create service account.
-        5.    In the Create service account window, type a name for the service account and select Furnish a new private key. Then, click Create.
+3.    Open the Service accounts section of the Developers Console's Permissions page.
+4.    Click Create service account.
+5.    In the Create service account window, type a name for the service account and select Furnish a new private key. Then, click Create.
 
 A new public/private key pair is generated and downloaded to local machine; it serves as the only copy of this key and should be responsibly stored for security purpose.
 
